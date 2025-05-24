@@ -1,8 +1,8 @@
-import Image from "next/image"
-import { Button } from "@/components/ui/button"
-import { Globe, Mail, Phone, MapPin } from "lucide-react"
+import Image from "next/image";
+import { Button } from "@/components/ui/button";
+import { Globe, Mail, Phone, MapPin } from "lucide-react";
 import { FiInstagram, FiTwitter, FiLinkedin, FiGithub } from "react-icons/fi";
-import { portfolioData } from "@/data/portfolio-data"
+import { portfolioData } from "@/data/portfolio-data";
 
 const iconMap = {
   github: FiGithub,
@@ -10,10 +10,10 @@ const iconMap = {
   twitter: FiTwitter,
   globe: Globe,
   instagram: FiInstagram,
-}
+};
 
 export function HeroSection() {
-  const { personal, socialLinks } = portfolioData
+  const { personal, socialLinks } = portfolioData;
 
   return (
     <section className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 to-indigo-100 dark:from-gray-900 dark:to-gray-800">
@@ -38,14 +38,18 @@ export function HeroSection() {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 mb-8">
-              <Button size="lg" className="bg-blue-600 hover:bg-blue-700">
-                <Mail className="mr-2 h-4 w-4" />
-                Get In Touch
-              </Button>
-              <Button variant="outline" size="lg">
-                <Phone className="mr-2 h-4 w-4" />
-                {personal.phone}
-              </Button>
+              <a href={`mailto:${personal.email}`}>
+                <Button size="lg" className="bg-blue-600 hover:bg-blue-700">
+                  <Mail className="mr-2 h-4 w-4" />
+                  Get In Touch
+                </Button>
+              </a>
+              <a href={`tel:${personal.phone}`}>
+                <Button variant="outline" size="lg">
+                  <Phone className="mr-2 h-4 w-4" />
+                  {personal.phone}
+                </Button>
+              </a>
             </div>
 
             <div className="flex justify-center lg:justify-start gap-4">
