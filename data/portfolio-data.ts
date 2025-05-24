@@ -107,65 +107,45 @@ export const portfolioData = {
       image: "/projects/certificate-generator.png",
     },
     {
+      id: 4,
+      name: "Blogger's Site",
+      description:
+      "A personal blogging web app where users can log in, create and read blogs. Features Google login, rich UI, and dynamic routing.",
+      technologies: ["TypeScript", "Vite", "React.js", "Firebase", "Tailwind CSS"],
+      liveUrl: "https://bloggers-world.netlify.app",
+      githubUrl: "https://github.com/arghyadutta080/Blogger-s-Site",
+      image: "/projects/bloggers_site.png",
+    },
+    {
       id: 3,
       name: "Saarthi Chatbot",
       description:
         "An intelligent chatbot powered by OpenAI API to support agriculture-related queries. Includes chat history, role-based auth, and user experience focus.",
-      technologies: ["React", "Node.js", "Express.js", "MongoDB", "OpenAI API"],
+      technologies: ["TypeScript", "Vite", "React.js", "Node.js", "Express.js", "MongoDB", "OpenAI API"],
       liveUrl: "", // Add live URL if deployed
       githubUrl: "https://github.com/arghyadutta080/Saarthi-Chatbot",
       image: "/projects/saarthi.png",
-    },
-    {
-      id: 4,
-      name: "Blogger's Site",
-      description:
-        "A personal blogging web app where users can log in, create and read blogs. Features Google login, rich UI, and dynamic routing.",
-      technologies: ["React", "Firebase", "Tailwind CSS"],
-      liveUrl: "https://bloggers-world.netlify.app",
-      githubUrl: "https://github.com/arghyadutta080/Blogger-s-Site",
-      image: "/projects/bloggers_site.png",
     },
     {
       id: 5,
       name: "stockXplore Client Site",
       description:
         "A stock prediction platform that visualizes stock trends using data from a Python/Django backend. Provides predictions and charts.",
-      technologies: ["React", "Tailwind CSS", "Python", "Django", "Machine Learning"],
+      technologies: ["React.js", "Tailwind CSS", "Python", "Django", "Machine Learning"],
       liveUrl: "", // Add live URL if deployed
       githubUrl: "https://github.com/arghyadutta080/stockXplore-clientsite",
       image: "/projects/stockxplore.png",
     },
-    // {
-    //   id: 6,
-    //   name: "TO-DO MERN App Client Site",
-    //   description:
-    //     "A full-stack to-do app with user auth, JWT, and task management. Built with MERN stack and email notification support.",
-    //   technologies: ["React", "Node.js", "Express.js", "MongoDB", "Tailwind CSS"],
-    //   liveUrl: "https://to-do-mern-app-client-site.vercel.app",
-    //   githubUrl: "https://github.com/arghyadutta080/TO-DO-MERN-App-Client-Site",
-    //   image: "/placeholder.svg?height=200&width=300",
-    // },
     {
-      id: 7,
+      id: 6,
       name: "Food Delivery App",
       description:
         "Frontend design of a food delivery mobile app built with React Native and Expo. Features Redux state management and UI components.",
-      technologies: ["React Native", "Expo", "Redux", "Tailwind CSS"],
+      technologies: ["React Native", "Expo", "Redux Toolkit", "Nativewind"],
       liveUrl: "", // Add live URL if deployed
       githubUrl: "https://github.com/arghyadutta080/Food-Delivery-App",
       image: "/projects/deliveroo.png",
-    },
-    // {
-    //   id: 8,
-    //   name: "Quiz App",
-    //   description:
-    //     "A Next.js 14 application that efficiently handles server-side rendering (SSR), caching, API calls, and global state management using React Query, Zustand, and ShadCN UI components.",
-    //   technologies: ["Next.js 14", "React Query", "Zustand", "ShadCN UI", "TypeScript", "Tailwind CSS"],
-    //   liveUrl: "https://quiz-app-opal-beta.vercel.app",
-    //   githubUrl: "https://github.com/arghyadutta080/Quiz-App",
-    //   image: "/placeholder.svg?height=200&width=300",
-    // },  
+    }
   ],
 
 
