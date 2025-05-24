@@ -39,7 +39,7 @@ export function Navigation() {
             <Image
               src={portfolioData.personal.signatureLogo}
               alt="Portfolio Logo"
-              className="h-10 w-auto mt-6 brightness-0 dark:brightness-100"
+              className="h-6 md:h-9 w-auto mt-2 md:mt-3 brightness-0 dark:brightness-100"
               height={200}
               width={200}
               priority
