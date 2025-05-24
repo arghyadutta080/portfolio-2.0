@@ -234,7 +234,7 @@ export const portfolioData = {
       "Replit",
     ],
     database: ["MongoDB", "PostgreSQL", "MySQL", "SQLite"],
-    languages: ["JavaScript", "TypeScript", "Python", "C", "C++", "HTML", "CSS"],
+    languages: ["JavaScript", "TypeScript", "Python", "C", "C++"],
   },
 };
 export type PortfolioData = typeof portfolioData;
