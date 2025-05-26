@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://arghya-dutta.vercel.app
+
+# Sitemaps
+Sitemap: https://arghya-dutta.vercel.app/sitemap.xml
