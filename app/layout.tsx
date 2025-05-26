@@ -24,6 +24,9 @@ export const metadata: Metadata = {
     siteName: "Arghya Dutta",
     images: [{ url: "https://arghya-dutta.vercel.app/profile-picture.jpeg" }],
   },
+  other: {
+    "google-site-verification": "cYz0ST6NS6_GRxhd94UPXlngTRloHWsOw1EvZamsj0A"
+  }
 };
 
 export default function RootLayout({
