@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import { portfolioData } from "@/data/portfolio-data";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -14,19 +15,38 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Arghya Dutta",
-  description:
-    "Full-stack developer passionate about building scalable web applications. Proficient in modern web technologies and experienced in both frontend and backend development. I enjoy solving real-world problems with code and creating seamless user experiences.",
+  description: portfolioData.personal.bio,
+  icons: "/favicon.png",
+  robots: "index, follow",
+  keywords: [
+    "Arghya Dutta",
+    "Full-stack developer",
+    "Web applications",
+    "Frontend development",
+    "Backend development",
+    "Software engineer",
+    "JavaScript",
+    "React",
+    "Node.js",
+    "Next.js",
+    "Web developer",
+    "Portfolio",
+    "Tech enthusiast",
+  ],
+  publisher: "Arghya Dutta",
+  authors: [{ name: "Arghya Dutta", url: "https://arghya-dutta.vercel.app" }],
+  creator: "Arghya Dutta",
+  applicationName: "Arghya Dutta",
   openGraph: {
     title: "Arghya Dutta",
-    description:
-      "Full-stack developer passionate about building scalable web applications. Proficient in modern web technologies and experienced in both frontend and backend development. I enjoy solving real-world problems with code and creating seamless user experiences.",
+    description: portfolioData.personal.bio,
     url: "https://arghya-dutta.vercel.app",
     siteName: "Arghya Dutta",
     images: [{ url: "https://arghya-dutta.vercel.app/profile-picture.jpeg" }],
   },
   other: {
-    "google-site-verification": "cYz0ST6NS6_GRxhd94UPXlngTRloHWsOw1EvZamsj0A"
-  }
+    "google-site-verification": "cYz0ST6NS6_GRxhd94UPXlngTRloHWsOw1EvZamsj0A",
+  },
 };
 
 export default function RootLayout({
