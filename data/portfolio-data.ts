@@ -1,12 +1,16 @@
 export const portfolioData = {
   personal: {
     name: "Arghya Dutta",
-    title: "Full Stack Developer",
+    title: "Full Stack Developer & AI Engineer",
     email: "arghyadutta080@gmail.com",
     phone: "+91-90512-44326",
     location: "Kolkata, India",
-    bio: "Full-stack developer passionate about building scalable web applications. Proficient in modern web technologies and experienced in both frontend and backend development. I enjoy solving real-world problems with code and creating seamless user experiences.",
-    background: "Full-stack developer passionate about building scalable, user-focused web applications. Proficient in both frontend and backend technologies like Next.js, TypeScript, Node.js, and Firebase, with practical experience from internships at startups. Skilled in developing responsive UIs, integrating APIs, and optimizing performance. Actively involved in hackathons and open-source projects, with a strong focus on writing clean, efficient, and maintainable code to solve real-world problems.",
+
+    bio: "Full Stack Developer and AI Engineer with experience building scalable web applications, AI-powered products, and modern frontend architectures. Skilled in React, Next.js, TypeScript, Node.js, and AI application development using LLMs, RAG systems using LangChain ecosystem. Passionate about solving real-world problems through software engineering, intelligent automation, and exceptional user experiences.",
+
+    background:
+      "Software Engineer with professional experience across startups and product companies, currently working as an Associate Full Stack Developer at Techolution. Experienced in frontend architecture, micro-frontends, API integrations, real-time systems, and performance optimization. Alongside full-stack development, I actively build AI-powered applications involving Large Language Models, AI Agents, Retrieval-Augmented Generation (RAG), tool orchestration, and prompt engineering. I enjoy designing scalable systems that combine traditional software engineering with modern AI capabilities.",
+
     profileImage: "/profile-picture.jpeg",
     signatureLogo: "/signature_logo.png",
   },
@@ -52,6 +56,30 @@ export const portfolioData = {
   experience: [
     {
       id: 1,
+      company: "Techolution India Pvt. Ltd.",
+      position: "Associate Full Stack Developer",
+      duration: "June 2025 - Present",
+      location: "Hyderabad, India (Hybrid)",
+      description:
+        "Working on AI-powered enterprise products and scalable frontend systems. Designed micro-frontend architectures, optimized performance, integrated GraphQL and REST APIs, implemented real-time AI response streaming, and developed AI-powered content generation workflows.",
+      technologies: [
+        "TypeScript",
+        "React.js",
+        "Webpack",
+        "Zustand",
+        "TanStack Query",
+        "Tailwind CSS",
+        "REST APIs",
+        "GraphQL",
+        "WebSocket",
+        "WebHooks",
+        "BullMQ",
+        "GitHub",
+      ],
+      link: ""
+    },
+    {
+      id: 2,
       company: "Paraheights Technologies Pvt. Ltd.",
       position: "Software Developer Intern",
       duration: "Feb 2025 - April 2025",
@@ -62,7 +90,7 @@ export const portfolioData = {
       link: "https://drive.google.com/file/d/1EUze4W-2gvN04_75tQQ8TSv3Mw6W2ib9/view",
     },
     {
-      id: 2,
+      id: 3,
       company: "Fibo Health Tech Pvt. Ltd.",
       position: "Software Development Engineer Intern",
       duration: "May 2024 - August 2024",
@@ -73,7 +101,7 @@ export const portfolioData = {
       link: "https://drive.google.com/file/d/1FEvMG2i0Hdpbgm5cafhcMz0KAJsyVlnG/view",
     },
     {
-      id: 3,
+      id: 4,
       company: "YouEkko Communications Pvt. Ltd.",
       position: "Software Development Engineer Intern (Full-Stack)",
       duration: "April 2024 - May 2024",
@@ -204,37 +232,73 @@ export const portfolioData = {
     frontend: [
       "React.js",
       "Next.js",
-      "Remotion",
       "TypeScript",
       "JavaScript",
+      "Remotion",
+      "Redux Toolkit",
+      "TanStack Query",
+      "Zustand",
+      "Webpack",
       "HTML5",
       "CSS3",
       "Tailwind CSS",
       "Chakra UI",
       "Bootstrap",
+      "Aceternity UI",
     ],
+
     backend: [
       "Node.js",
       "Express.js",
       "FastAPI",
+      "REST APIs",
+      "GraphQL",
+      "Socket.io",
+      "WebHooks",
+      "BullMQ",
       "Firebase",
       "Supabase",
-      "REST APIs",
-      "Socket.io",
     ],
+
+    ai: [
+      "LangChain",
+      "LangSmith",
+      "AI Agents",
+      "Retrieval Augmented Generation (RAG)",
+      "Prompt Engineering",
+      "Tool Calling",
+      "Agent Orchestration",
+    ],
+
+    database: [
+      "MongoDB",
+      "PostgreSQL",
+      "MySQL",
+      "SQLite",
+      "MongoDB Vector Search",
+    ],
+
     tools: [
       "Git",
       "GitHub",
       "GitLab",
       "VS Code",
-      "Netlify",
-      "Vercel",
       "Postman",
       "Swagger",
+      "Vercel",
+      "Netlify",
+      "Firebase",
+      "Supabase",
       "Replit",
     ],
-    database: ["MongoDB", "PostgreSQL", "MySQL", "SQLite"],
-    languages: ["JavaScript", "TypeScript", "Python", "C", "C++"],
+
+    languages: [
+      "JavaScript",
+      "TypeScript",
+      "Python",
+      "C",
+      "C++",
+    ],
   },
 };
 export type PortfolioData = typeof portfolioData;

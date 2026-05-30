@@ -1,6 +1,13 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { Code, Server, Wrench, Languages } from "lucide-react"
+import {
+  Code,
+  Server,
+  Brain,
+  Database,
+  Wrench,
+  Languages,
+} from "lucide-react"
 import { portfolioData } from "@/data/portfolio-data"
 
 const skillCategories = [
@@ -8,25 +15,43 @@ const skillCategories = [
     title: "Frontend",
     icon: Code,
     skills: "frontend",
-    color: "bg-blue-100 dark:bg-blue-900 text-blue-600 dark:text-blue-400",
+    color:
+      "bg-blue-100 dark:bg-blue-900 text-blue-600 dark:text-blue-400",
   },
   {
     title: "Backend",
     icon: Server,
     skills: "backend",
-    color: "bg-green-100 dark:bg-green-900 text-green-600 dark:text-green-400",
+    color:
+      "bg-green-100 dark:bg-green-900 text-green-600 dark:text-green-400",
+  },
+  {
+    title: "AI Engineering",
+    icon: Brain,
+    skills: "ai",
+    color:
+      "bg-pink-100 dark:bg-pink-900 text-pink-600 dark:text-pink-400",
+  },
+  {
+    title: "Databases",
+    icon: Database,
+    skills: "database",
+    color:
+      "bg-cyan-100 dark:bg-cyan-900 text-cyan-600 dark:text-cyan-400",
   },
   {
     title: "Tools & Platforms",
     icon: Wrench,
     skills: "tools",
-    color: "bg-purple-100 dark:bg-purple-900 text-purple-600 dark:text-purple-400",
+    color:
+      "bg-purple-100 dark:bg-purple-900 text-purple-600 dark:text-purple-400",
   },
   {
     title: "Languages",
     icon: Languages,
     skills: "languages",
-    color: "bg-orange-100 dark:bg-orange-900 text-orange-600 dark:text-orange-400",
+    color:
+      "bg-orange-100 dark:bg-orange-900 text-orange-600 dark:text-orange-400",
   },
 ]
 
