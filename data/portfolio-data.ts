@@ -19,7 +19,7 @@ export const portfolioData = {
     {
       college: "RCC Institute of Information Technology (RCCIIT)",
       degree: "Bachelor of Technology in Computer Science and Engineering",
-      cgpa: "8.33/10",
+      cgpa: "8.22/10",
       graduationYear: "2025",
     },
     {
@@ -57,14 +57,18 @@ export const portfolioData = {
     {
       id: 1,
       company: "Techolution India Pvt. Ltd.",
-      position: "Associate Full Stack Developer",
+      position: "Associate Full Stack Engineer",
       duration: "June 2025 - Present",
       location: "Hyderabad, India (Hybrid)",
       description:
-        "Working on AI-powered enterprise products and scalable frontend systems. Designed micro-frontend architectures, optimized performance, integrated GraphQL and REST APIs, implemented real-time AI response streaming, and developed AI-powered content generation workflows.",
+        "Joined as a Software Developer Intern (June-November 2025) and transitioned to Associate Full Stack Engineer in December 2025. Develops AI-powered enterprise applications across frontend architecture, backend services, API integrations, data persistence, and AI-driven workflows. Builds scalable micro-frontends and reusable component libraries, configurable template-driven interfaces, real-time AI streaming workflows, and multimodal ingestion and citation capabilities.",
       technologies: [
         "TypeScript",
+        "JavaScript",
         "React.js",
+        "Next.js",
+        "Node.js",
+        "Express.js",
         "Webpack",
         "Zustand",
         "TanStack Query",
@@ -72,8 +76,11 @@ export const portfolioData = {
         "REST APIs",
         "GraphQL",
         "WebSocket",
+        "Server-Sent Events (SSE)",
         "WebHooks",
         "BullMQ",
+        "Redis",
+        "LLM Integration",
         "GitHub",
       ],
       link: ""
@@ -115,6 +122,16 @@ export const portfolioData = {
 
   projects: [
     {
+      id: 7,
+      name: "Career Copilot AI",
+      description:
+        "A full-stack AI-powered career assistance platform that analyzes resumes against job descriptions, delivering ATS scoring, skill-gap analysis, resume optimization, personalized cover letters, and interview preparation. Uses LangChain and Google Gemini for AI workflows, Google OAuth 2.0 and JWT for authentication, and MongoDB for persistent user, resume, and analysis data. Integrates GraphQL, REST APIs, and Server-Sent Events (SSE) for asynchronous processing, real-time progress updates, and token-by-token AI response streaming. Frontend repository: https://github.com/arghyadutta080/Career-Copilot-AI-Frontend | Backend repository: https://github.com/arghyadutta080/Career-Copilot-AI-Server",
+      technologies: ["TypeScript", "Next.js", "Tailwind CSS", "Zustand", "TanStack Query", "Node.js", "Express.js", "GraphQL", "Apollo Server", "REST APIs", "MongoDB", "Mongoose", "LangChain", "Google Gemini", "Server-Sent Events (SSE)", "Google OAuth 2.0", "JWT"],
+      liveUrl: "https://career-copilot-ai-web.vercel.app",
+      githubUrl: "https://github.com/arghyadutta080/Career-Copilot-AI-Frontend",
+      image: "/projects/career_copilot_ai.png",
+    },
+    {
       id: 1,
       name: "Blogi - Share Your Thoughts",
       description:
@@ -134,46 +151,6 @@ export const portfolioData = {
       githubUrl: "https://github.com/arghyadutta080/Certificate-Generator",
       image: "/projects/certificate-generator.png",
     },
-    {
-      id: 4,
-      name: "Blogger's Site",
-      description:
-      "A personal blogging web app where users can log in, create and read blogs. Features Google login, rich UI, and dynamic routing.",
-      technologies: ["TypeScript", "Vite", "React.js", "Firebase", "Tailwind CSS"],
-      liveUrl: "https://bloggers-world.netlify.app",
-      githubUrl: "https://github.com/arghyadutta080/Blogger-s-Site",
-      image: "/projects/bloggers_site.png",
-    },
-    {
-      id: 3,
-      name: "Saarthi Chatbot",
-      description:
-        "An intelligent chatbot powered by OpenAI API to support agriculture-related queries. Includes chat history, role-based auth, and user experience focus.",
-      technologies: ["TypeScript", "Vite", "React.js", "Node.js", "Express.js", "MongoDB", "OpenAI API"],
-      liveUrl: "", // Add live URL if deployed
-      githubUrl: "https://github.com/arghyadutta080/Saarthi-Chatbot",
-      image: "/projects/saarthi.png",
-    },
-    {
-      id: 5,
-      name: "stockXplore Client Site",
-      description:
-        "A stock prediction platform that visualizes stock trends using data from a Python/Django backend. Provides predictions and charts.",
-      technologies: ["React.js", "Tailwind CSS", "Python", "Django", "Machine Learning"],
-      liveUrl: "", // Add live URL if deployed
-      githubUrl: "https://github.com/arghyadutta080/stockXplore-clientsite",
-      image: "/projects/stockxplore.png",
-    },
-    {
-      id: 6,
-      name: "Food Delivery App",
-      description:
-        "Frontend design of a food delivery mobile app built with React Native and Expo. Features Redux state management and UI components.",
-      technologies: ["React Native", "Expo", "Redux Toolkit", "Nativewind"],
-      liveUrl: "", // Add live URL if deployed
-      githubUrl: "https://github.com/arghyadutta080/Food-Delivery-App",
-      image: "/projects/deliveroo.png",
-    }
   ],
 
 
@@ -253,7 +230,10 @@ export const portfolioData = {
       "FastAPI",
       "REST APIs",
       "GraphQL",
+      "Apollo Server",
       "Socket.io",
+      "Server-Sent Events (SSE)",
+      "JWT",
       "WebHooks",
       "BullMQ",
       "Firebase",
@@ -262,6 +242,7 @@ export const portfolioData = {
 
     ai: [
       "LangChain",
+      "Google Gemini",
       "LangSmith",
       "AI Agents",
       "Retrieval Augmented Generation (RAG)",
