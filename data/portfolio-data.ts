@@ -125,8 +125,8 @@ export const portfolioData = {
       id: 7,
       name: "Career Copilot AI",
       description:
-        "A full-stack AI-powered career assistance platform that analyzes resumes against job descriptions, delivering ATS scoring, skill-gap analysis, resume optimization, personalized cover letters, and interview preparation. Uses LangChain and Google Gemini for AI workflows, Google OAuth 2.0 and JWT for authentication, and MongoDB for persistent user, resume, and analysis data. Integrates GraphQL, REST APIs, and Server-Sent Events (SSE) for asynchronous processing, real-time progress updates, and token-by-token AI response streaming. Frontend repository: https://github.com/arghyadutta080/Career-Copilot-AI-Frontend | Backend repository: https://github.com/arghyadutta080/Career-Copilot-AI-Server",
-      technologies: ["TypeScript", "Next.js", "Tailwind CSS", "Zustand", "TanStack Query", "Node.js", "Express.js", "GraphQL", "Apollo Server", "REST APIs", "MongoDB", "Mongoose", "LangChain", "Google Gemini", "Server-Sent Events (SSE)", "Google OAuth 2.0", "JWT"],
+        "A full-stack AI-powered career assistance platform that analyzes resumes against job descriptions, delivering ATS scoring, skill-gap analysis, resume optimization, personalized cover letters, and interview preparation.",
+      technologies: ["TypeScript", "Next.js", "Tailwind CSS", "Zustand", "TanStack Query", "Node.js", "Express.js", "GraphQL", "REST APIs", "MongoDB", "LangChain", "Google Gemini", "Server-Sent Events (SSE)", "Google OAuth 2.0"],
       liveUrl: "https://career-copilot-ai-web.vercel.app",
       githubUrl: "https://github.com/arghyadutta080/Career-Copilot-AI-Frontend",
       image: "/projects/career_copilot_ai.png",
